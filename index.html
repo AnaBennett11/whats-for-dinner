@@ -1,10 +1,43 @@
-<html>
-  <head>
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+ <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    
-  </body>
+    <title> What's for Dinner?</title>
+ </head>
+
+<body>
+
+  <header>
+    <nav>
+      <h1>What's for Dinner?</h1>
+    </nav>
+  </header>
+
+  <main>
+  <div class="wrapper">
+    <form>
+     <h2>What are you looking for?<span class="red-asterisk">*</span></h2>
+     <input id="side" type="radio" name="areyou" value="side"/>
+     <label for="side">Side</label> <br><br>
+     <input id="main dish" type="radio" name="areyou" value="main dish"/>
+     <label for="main dish">Main Dish</label><br><br>
+     <input id= "dessert" type="radio" name="areyou" value="dessert"/>
+     <label for="dessert">Dessert</label><br><br>
+     <input id= "entire meal" type="radio" name="areyou" value="entire meal"/>
+     <label for="entire meal">Entire Meal</label><br><br>
+     <button type="button">LET'S COOK!</button>
+   </form>
+   <section class = "make">
+     <h3 class = "sentence hidden">You should make</h3>
+     <p class = "random"></p>
+       <img src="assets/cookpot.svg" class="stockpot"></img>
+   </section>
+ </div>
+  </main>
+</body>
+
   <script type="text/javascript" src="main.js"></script>
 </html>
