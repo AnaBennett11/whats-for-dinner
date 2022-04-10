@@ -5,6 +5,108 @@ teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
 red - #ee5253
-
 */
+body  {
+  background-image: url("./assets/burger-friends.jpg");
+  background-size: cover;
+}
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
+nav  {
+  background-color: teal;
+  margin: -20px;
+  padding: 5px;
+}
+
+img {
+  height: 110px;
+}
+
+.wrapper {
+    display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+  	justify-content: space-evenly;
+  	align-items: flex-end;
+
+}
+.red-asterisk{
+  color: red;
+
+}
+
+h1{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px;
+}
+main {
+  display: flex;
+  justify-content:space-around;
+}
+
+h2{
+  display:flex;
+  justify-content: flex-start;
+}
+
+h3 {
+  font-size: 14px;
+}
+p {
+  font-size: 22px;
+}
+button {
+  width: 175px;
+  height:30px;
+  background-color: #0fb9b1;
+  border: 0px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+ }
+
+
+form {
+  background-color: rgba(225, 225, 225, .9);
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+  margin: 50px;
+
+}
+
+
+.box {
+  background-color: rgba(225, 225, 225, .9);
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.make {
+  background-color: rgba(225, 225, 225, .9);
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.hidden{
+/* this is not the whole CSS rule the display none is the actual rule display is property none is value and !important an overrride rule  */
+  display: none!important;
+}
